@@ -7,7 +7,7 @@ mnist = tf.keras.datasets.mnist  # mnist is a dataset of 28x28 images of handwri
 
 x_train = x_train/255
 x_test = x_test/255
-print('Aachal Mandloi 0827CI201001')
+print('Deepshikha Yadav 0827CI201060')
 print("x_train =",x_train.shape)
 print("y_train =",y_train.shape)
 print("x_test =",x_test.shape)
@@ -44,6 +44,6 @@ model.compile(
 model.fit(x_train,y_train,
           epochs=3,verbose=1)
           score = model.evaluate(x_test, y_test)
-print('Aachal Mandloi 0827CI201001')
+print('Deepshikha Yadav 0827CI201060')
 print('Test score:', score[0])
 print('Test accuracy:', score[1])
